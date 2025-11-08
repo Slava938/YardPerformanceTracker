@@ -132,7 +132,7 @@ docs/
 
 - **GitHub Repository:** https://github.com/Slava938/YardPerformanceTracker
 - **Class Diagram:** `docs/class-diagram.png`  
-- **Presentation Slides:** [Add link when ready]  
+- **Presentation Slides:** https://docs.google.com/presentation/d/1HyLB3p0ilA6kJPK13xhE09c_5L1goyHQQlTny5kUxRY/edit?usp=sharing 
 
 ---
 
