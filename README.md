@@ -130,7 +130,7 @@ docs/
 
 ## 💼 Resources & Links
 
-- **GitHub Repository:** [Add after push]  
+- **GitHub Repository:** https://github.com/Slava938/YardPerformanceTracker
 - **Class Diagram:** `docs/class-diagram.png`  
 - **Presentation Slides:** [Add link when ready]  
 
