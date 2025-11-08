@@ -15,7 +15,7 @@ public class EmployeeSelfController {
     private final EmployeeRepository employeeRepo;
     private final TaskRecordRepository taskRecordRepo;
 
-    // 🔹 Основна сторінка працівника
+
     @GetMapping("/{id}")
     public Map<String, Object> getSelfDashboard(@PathVariable Long id) {
         Employee e = employeeRepo.findById(id)
