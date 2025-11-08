@@ -65,22 +65,23 @@ The app runs by default on:
 
 ## 🔗 API Structure & Endpoints
 
-### 🔹 Manager Dashboard
-`GET /api/dashboard`  
-> Returns overview data for current KPIs, total shifts, and performance analytics.
+### 🔹GET /api/dashboard/summary
+🔹 Returns overview data for all employees — including total employees, top & lowest performers, average KPI, and process breakdown.
 
 ### 🔹 Employee Self View
-`GET /api/employee/self`  
-> Returns employee’s personal performance and assigned shifts.
+`GET /api/employees/{id}
+🔹 Displays personal KPI, feedback, assigned shift, and performance summary for the selected employee.
 
 ### 🔹 Shift Plan
-`GET /api/shift-plans/today`  
-> Returns today’s active shift plan (if available).  
-If the list is empty — it means no plan exists for the current day (normal behavior).
+`GET /api/shift-plans
+🔹 Returns all available shift plans (Morning, Twilight, Late Down, Night).
+🔸 Useful for managers to view and assign employees to specific shifts.
 
-### 🔹 Reports
-`GET /api/reports`
-> Returns aggregated task and performance reports for the given period.
+### 🔹Authentication
+
+POST /api/login
+🔹 Generates JWT token for manager or employee login.
+🔐 Used to access protected endpoints.
 
 ---
 
