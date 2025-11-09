@@ -37,7 +37,7 @@ public class KpiCalculationService {
             };
 
             long duration = Duration.between(task.getStartTime(), task.getEndTime()).toMinutes();
-            double efficiency = Math.max(0.5, Math.min(1.0, 60.0 / (duration + 1))); // нормалізація
+            double efficiency = Math.max(0.5, Math.min(1.0, 60.0 / (duration + 1)));
 
             double taskKpi = (task.getQualityScore() * 0.5 + task.getSafetyScore() * 0.3)
                     * efficiency * (1 + baseScore);
